@@ -25,7 +25,7 @@ function App() {
 
       try {
         const response = await axios.get(
-          `https://pixabay.com/api/?key=${API_KEY}&q=${searchQuery}&page=${page}&per_page=8`
+          `https://pixabay.com/api/?key=${API_KEY}&q=${searchQuery}&page=${page}`
         );
 
         console.log(response);
